@@ -1,0 +1,10 @@
+#ifndef _PASSWD
+#define _PASSWD
+
+#define MQTT_USERNAME ""  //MQTT USERNAME
+#define MQTT_PSSWD ""     //MQTT PASSWORD
+#define SSID ""           //Wifi SSID
+#define PSSWD ""          //Wifi PASSWORD
+#define OTA_PSSWD ""      //OTA PASSWORD
+
+#endif
