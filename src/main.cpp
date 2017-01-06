@@ -2,12 +2,12 @@
 #include <ESP8266mDNS.h>
 #include <WiFiUdp.h>
 #include <ArduinoOTA.h>
-#include "psswd.h"
+#include "psswd.h" //Rename psswd.h.default to psswd.h and fill it with your personal data
 
 #include "Adafruit_MQTT.h"
 #include "Adafruit_MQTT_Client.h"
 
-//Rename psswd.h.default to psswd.h and fill it with your personal data
+
 #define MQTT_SERVER      "m13.cloudmqtt.com"
 #define MQTT_SERVERPORT  12460                  // use 8883 for SSL
 
