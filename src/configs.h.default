@@ -1,0 +1,14 @@
+#ifndef _CONFIGS_
+#define _CONFIGS_
+
+#define HOSTNAME ""             //ESP Hostname
+#define MQTT_USERNAME ""        //MQTT USERNAME
+#define MQTT_PSSWD ""           //MQTT PASSWORD
+#define SSID ""                 //Wifi SSID
+#define PSSWD ""                //Wifi PASSWORD
+#define OTA_PSSWD ""            //OTA PASSWORD
+#define MQTT_SERVER ""          //MQTT SERVER
+#define MQTT_SERVERPORT 1883    // use 8883 for SSL
+#define TOPIC_N1 (char*)"/test" //Topic name
+
+#endif
