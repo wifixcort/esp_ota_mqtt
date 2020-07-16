@@ -1,6 +1,7 @@
 /*
-ESP8266 Configuration 
-This skech is in charge to verify and maintain the MQTT connection with the server
+ESP8266 Configuration
+This sketch is in charge to verify and maintain the MQTT connection,
+restart if is needed and make OTA updates possible
 
 Ricardo Mena C.
 https://wfx.ddns.net
