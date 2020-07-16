@@ -1,3 +1,8 @@
-#Adafuit HUZZAH OTA test in PlatformIO
+#Adafuit HUZZAH OTA test with PlatformIO
 
-If you gone a use this examples in Arduino IDE just rename src/ and main.cpp with the same name
+Don't forget rename config.h.default to confing.h and populate with your server and wifi credentials
+
+The first time you can upload de sketch throug PlatformIO then open plaformio.ini and uncomment upload_flag and port(actually is your ESP IP address)
+
+;upload_flags = --auth=abcdefghi
+;upload_port = 192.168.0.100
